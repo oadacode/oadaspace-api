@@ -1,0 +1,27 @@
+{
+  "kind": "singleType",
+  "collectionName": "abouts",
+  "info": {
+    "name": "about"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "tech": {
+      "type": "component",
+      "repeatable": true,
+      "component": "description.tech-item",
+      "required": true
+    },
+    "info": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}

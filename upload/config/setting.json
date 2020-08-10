@@ -1,0 +1,8 @@
+{
+  "provider": "cloudinary",
+  "providerOptions": {
+    "cloud-name": "oadacode",
+    "api_key": "935995633488843",
+    "api_secret": "l-XMnx3UCQbMEDgDHwdY1nJpEf0"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/smallprojects",
+      "handler": "smallprojects.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/smallprojects/count",
+      "handler": "smallprojects.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/smallprojects/:id",
+      "handler": "smallprojects.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/smallprojects",
+      "handler": "smallprojects.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/smallprojects/:id",
+      "handler": "smallprojects.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/smallprojects/:id",
+      "handler": "smallprojects.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

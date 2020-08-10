@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "smallprojects",
+  "info": {
+    "name": "smallprojects"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "url": {
+      "type": "string"
+    },
+    "repo": {
+      "type": "string"
+    }
+  }
+}
